@@ -10,7 +10,7 @@ const Data = () => {
 
   return (
     <div>
-        <div className='anothertestclass'>This data is shown with the help of a dictionary : name: {user.name}, class: {user.class}, roll: {user.roll_no}</div>
+        <div className='anothertestclass' style={{color:"red", background:"violet", borderRadius:"10px"}}>This data is shown with the help of a dictionary : name: {user.name}, class: {user.class}, roll: {user.roll_no}</div>
 
     </div>
 
