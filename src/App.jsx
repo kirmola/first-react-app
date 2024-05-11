@@ -5,6 +5,7 @@ import './App.css'
 import Button from './components/Button'
 import Data from './components/Data'
 import Conditional from './components/Conditional'
+import Lists from './components/Lists'
 
 function App() {
   const [count, setCount] = useState(21)
@@ -17,6 +18,8 @@ function App() {
       <Data/>
       ------------
       <Conditional/>
+      ------------
+      <Lists/>
       ------------
     </>
   )
